@@ -73,8 +73,8 @@ const Navbar = () => {
   return (
     <nav
       ref={navRef}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? "bg-background/90 backdrop-blur-md shadow-sm" : "bg-transparent"
+      className={`fixed top-2 left-4 right-4 z-50 transition-all duration-500 rounded-full ${
+        scrolled ? "bg-background/90 backdrop-blur-md shadow-sm border border-border/40" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
